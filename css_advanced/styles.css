@@ -116,3 +116,60 @@ header li a {
     outline:none;
     width:50px;
 }
+
+.profiles {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+
+.profile_content {
+    text-align: center;
+    align-items: center;
+    line-height: 1.1rem;
+    margin-top: 20px;
+}
+
+.profile_content h3 {
+    color: white;
+    margin: 0;
+}
+
+/* featured content with purple bg */
+
+.featured {
+    background-color: #c170ff;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 270px;
+    font-family: Source sans pro;
+}
+
+.featured_text {
+    margin: 0 10px;
+    padding: 30px 0;
+}
+
+.featured blockquote {
+    color: #ffffff;
+    text-align: left;
+    margin: 0;
+}
+
+.featured h3 {
+    color: #ffffff;
+}
+
+span {
+    color: #ffffff;
+    font-size:16px;
+    font-family:Source Sans Pro;
+    
+}
+
+.horizontal-spans {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+
+}
