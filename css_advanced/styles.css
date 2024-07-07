@@ -1,3 +1,9 @@
+
+/* body */
+body {
+    width: 100%;
+ }
+
 /*characters*/
 h1 {
     color:#ffffff;
@@ -30,6 +36,11 @@ p {
 }
 
 /* images and buttons */
+
+ 
+.logo {
+    height: 13px;
+}
 
 img {
     margin: 10px;
@@ -173,3 +184,86 @@ span {
     width: 25%;
 
 }
+
+/* video list */
+ 
+ .popular_tutorials {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .black {
+     color: black;
+     font-size: 32px;
+ }
+ 
+ .tutorial_items {
+     font-family: source sans pro;
+     width: 255px;
+     padding: 50px 10px;
+ 
+ }
+ 
+ .popular_tutorials img {
+     width: 255px;
+ }
+ 
+ .popular_tutorials h3 {
+     font-family: source sans pro;
+     font-size: 16px;
+     padding: 0 20px;
+ }
+ 
+ .popular_tutorials p {
+     color: #a4a4a4;
+     font-size: 14px;
+     padding: 0 20px;
+ }
+ 
+ .author {
+     display: flex;
+     flex-wrap: nowrap;
+ }
+ 
+ .author img {
+     width: 30px;
+     height: 30px;
+ }
+ 
+ .author h4 {
+     /* width: 500px; */
+ }
+ 
+ .post_time p {
+     /* width: 34px; */
+     color: #c170ff;
+ }
+ 
+ /* stars */
+ 
+ .stars {
+     display: flex;
+     flex-direction: row;
+     color: #979797;
+     gap: 10px;
+     width: 107px;
+ 
+ }
+ 
+ .star_time {
+     display: flex;
+     width: 255px;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+ 
+ }
+ 
+ .star_time p {
+ 
+ }
+ 
+ .rating {
+     color: #c170ff;
+ }
+ 
