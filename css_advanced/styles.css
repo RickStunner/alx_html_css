@@ -350,3 +350,24 @@ color: #ffffff;
     font-size: 14px;
     color: #d3d3d3;
 }
+
+/* footer */
+
+footer {
+    background-color: #071629;
+    color: white;
+    padding: 40px 200px;
+    align-items: center;
+    text-align: center;
+}
+
+.social_media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_content  p {
+    color: #979797;
+}
+
