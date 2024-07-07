@@ -320,3 +320,33 @@ color: #ffffff;
 .membership img {
     width: 44px;
 }
+
+/* FAQs */
+
+.faq {
+    background-color: white;
+    font-family: source sans pro;
+    padding: 50px;
+
+}
+
+.faq h2 {
+    color: #071629;
+    text-align: center; 
+    padding: 10px 0;
+}
+
+.faq_items {
+    display: flex;
+    flex-direction: row;
+}
+
+.Qbox {
+    padding: 10px 100px;
+    line-height: 1.5rem;
+}
+
+.Qbox p {
+    font-size: 14px;
+    color: #d3d3d3;
+}
