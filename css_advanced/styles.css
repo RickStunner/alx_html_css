@@ -267,3 +267,56 @@ span {
      color: #c170ff;
  }
  
+ /* Membership */
+
+ /* membership */
+
+.membership {
+    background-color: #071629;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: source sans pro;
+    text-align: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.membership_items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 300px;
+}
+
+.membership h2 {
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.membership_items div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 257px;
+}
+
+.membership button {
+    margin-bottom: 40px;
+    display: inline-block;
+
+}
+
+.membership h3 {
+color: #ffffff;
+}
+
+.membership img {
+    width: 44px;
+}
